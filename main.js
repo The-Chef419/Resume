@@ -114,5 +114,5 @@ resumeButton.addEventListener('click', () => {
 
     generateResume
 
-
+    setTimeout(removeScale, 5000)
 })
