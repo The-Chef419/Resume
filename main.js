@@ -96,10 +96,20 @@ let areaCV = document.getElementById('CV')
 
 let resumeButton = document.getElementById('resume-button')
 
+// Html2pdf options
+let opt = {
+    margin: 0,
+    filename: 'CV.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 4 },
+    jsPDF: { format: 'a4', orientation: 'portrait' }
+};
+
+
 
 // Function to call areaCV and Html2Pdf options 
 function generateResume() {
-    html2pdf(areaCV)
+    html2pdf(areaCV, opt)
 }
 
 
@@ -108,7 +118,7 @@ resumeButton.addEventListener('click', () => {
 
     scaleCv()
 
+    generateResume()
 
-
-
+    setTimeout(removeScale, 3000)
 })
