@@ -162,7 +162,7 @@
  }
  
  .scale-cv .skills_name {
-     margin-bottom: 2.5rem;
+     margin-bottom: var(--mb-1);
  }
  
  .scale-cv .interests_container {
