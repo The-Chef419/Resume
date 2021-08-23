@@ -101,8 +101,8 @@ let opt = {
     margin: 0,
     filename: 'CV.pdf',
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 4 },
-    jsPDF: { format: 'a2', orientation: 'portrait' }
+    html2canvas: { scale: 3 },
+    jsPDF: { format: 'a3', orientation: 'portrait' }
 };
 
 
