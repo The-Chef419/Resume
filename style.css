@@ -132,32 +132,32 @@
  }
  
  .scale-cv .education_container,
- .scale-cv .experience_container,
+ .scale-cv .overview_container,
  .scale-cv .certificate_container {
      gap: 1rem;
  }
  
  .scale-cv .education_time,
- .scale-cv .experience_time {
+ .scale-cv .overview_time {
      gap: .5rem;
  }
  
  .scale-cv .education_rounder,
- .scale-cv .experience_rounder {
+ .scale-cv .overview_rounder {
      width: 11px;
      height: 11px;
      margin-top: .22rem;
  }
  
  .scale-cv .education_line,
- .scale-cv .experience_line {
+ .scale-cv .overview_line {
      width: 1px;
      height: 110%;
      transform: translate(5px, 0);
  }
  
  .scale-cv .education_data,
- .scale-cv .experience_data {
+ .scale-cv .overview_data {
      gap: .25rem;
  }
  
@@ -399,17 +399,17 @@
  }
  
  .education_content,
- .experience_content {
+ .overview_content {
      display: flex;
  }
  
  .education_time,
- .experience_time {
+ .overview_time {
      padding-right: 1rem;
  }
  
  .education_rounder,
- .experience_rounder {
+ .overview_rounder {
      position: relative;
      display: block;
      width: 16px;
@@ -420,7 +420,7 @@
  }
  
  .education_line,
- .experience_line {
+ .overview_line {
      display: block;
      width: 2px;
      height: 110%;
@@ -429,17 +429,17 @@
  }
  
  .education_data,
- .experience_data {
+ .overview_data {
      gap: .5rem;
  }
  
  .education_title,
- .experience_title {
+ .overview_title {
      font-size: var(--h3-font-size);
  }
  
  .education_studies,
- .experience_company {
+ .overview_company {
      font-size: var(--small-font-size);
      color: var(--title-color);
  }
@@ -479,20 +479,20 @@
      margin-bottom: var(--mb-1);
  }
  
- .references_content {
+ .experience_content {
      gap: .25rem;
  }
  
- .references_subtitle {
+ .experience_subtitle {
      color: var(--text-color-light);
  }
  
- .references_subtitle,
- .references_contact {
+ .experience_subtitle,
+ .experience_contact {
      font-size: var(--smaller-font-size);
  }
  
- .references_title {
+ .experience_title {
      font-size: var(--h3-font-size);
  }
  
@@ -583,7 +583,7 @@
      .home_button-movil {
          display: none;
      }
-     .references_container {
+     .experience_container {
          grid-template-columns: repeat(2, 1fr);
      }
      .languages_content {
