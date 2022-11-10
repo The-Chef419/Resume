@@ -484,10 +484,14 @@
  }
  
  .experience_subtitle {
-     color: var(--text-color-light);
+     color: var(--text-color);
  }
  
- .experience_subtitle,
+ 
+ .experience_subtitle {
+    font-size: var(--small-font-size);
+}
+
  .experience_contact {
      font-size: var(--smaller-font-size);
  }
