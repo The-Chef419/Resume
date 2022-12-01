@@ -144,9 +144,9 @@ body.scale-cv {
 
 .scale-cv .education_rounder,
 .scale-cv .overview_rounder {
-    width: 12px;
-    height: 12px;
-    margin-top: .22rem;
+    width: 13px;
+    height: 13px;
+    margin-top: .40rem;
 }
 
 .scale-cv .education_line,
