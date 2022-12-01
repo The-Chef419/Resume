@@ -95,7 +95,7 @@
  }
  
  .scale-cv .section {
-     padding: 1.5rem 0 .80rem;
+     padding: 1.5rem 0.80rem;
  }
  
  .scale-cv.section-title {
@@ -104,7 +104,7 @@
  
  .scale-cv .resume_left,
  .scale-cv .resume_right {
-     padding: 0 1rem;
+     padding: 1.5rem;
  }
  
  .scale-cv .home_img {
