@@ -139,7 +139,7 @@ body.scale-cv {
 
 .scale-cv .education_time,
 .scale-cv .overview_time {
-    gap: .5rem;
+    gap: .8rem;
 }
 
 .scale-cv .education_rounder,
