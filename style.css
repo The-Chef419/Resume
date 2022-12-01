@@ -87,7 +87,7 @@ body.scale-cv {
 .scale-cv .bd-container,
 .scale-cv .resume_left,
 .scale-cv .resume_right {
-    max-width: 595px;
+    max-width: 800px;
 }
 
 .scale-cv .interests_container bd-grid {
