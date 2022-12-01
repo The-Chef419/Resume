@@ -151,7 +151,7 @@ body.scale-cv {
 
 .scale-cv .education_line,
 .scale-cv .overview_line {
-    width: 1px;
+    width: 1.5px;
     height: 110%;
     transform: translate(5px, 0);
 }
