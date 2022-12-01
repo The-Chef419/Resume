@@ -95,16 +95,16 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-    padding: 1.5rem 0 .80rem;
+    padding: 1.2rem 0 .60rem;
 }
 
 .scale-cv.section-title {
-    margin-bottom: .75rem;
+    margin-bottom: .5rem;
 }
 
 .scale-cv .resume_left,
 .scale-cv .resume_right {
-    padding: 0 1rem;
+    padding: 0.1rem;
 }
 
 .scale-cv .home_img {
