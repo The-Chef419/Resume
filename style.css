@@ -67,9 +67,9 @@ body.scale-cv {
 .generate-pdf {
     display: none;
     position: absolute;
-    top: 2.2rem;
+    top: 1.8rem;
     left: 0;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: var(--text-color);
     cursor: pointer;
 }
