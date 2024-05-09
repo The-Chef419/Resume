@@ -56,9 +56,9 @@ body.dark-theme {
 }
 
 body.scale-cv {
-    --h1-font-size: .7rem;
-    --h2-font-size: .7rem;
-    --h3-font-size: .5rem;
+    --h1-font-size: .838rem;
+    --h2-font-size: .838rem;
+    --h3-font-size: .8775rem;
     --normal-font-size: .713rem;
     --small-font-size: .55rem;
     --smaller-font-size: .488rem;
@@ -67,9 +67,9 @@ body.scale-cv {
 .generate-pdf {
     display: none;
     position: absolute;
-    top: 1.5rem;
+    top: 2.2rem;
     left: 0;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: var(--text-color);
     cursor: pointer;
 }
