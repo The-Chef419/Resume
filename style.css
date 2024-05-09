@@ -480,7 +480,7 @@ img {
 }
 
 .experience_content {
-    gap: .55rem;
+    gap: .25rem;
 }
 
 .experience_subtitle {
@@ -588,7 +588,7 @@ img {
         display: none;
     }
     .experience_container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     .languages_content {
         grid-template-columns: repeat(3, max-content);
